@@ -8,7 +8,8 @@ This project focuses on examining AtliQ Hardware’s sales data to uncover meani
 - [Project Overview](#project-overview)  
 - [Problem Statement](#problem-statement)  
 - [Key Objectives](#key-objectives)  
-- [Tools & Technologies](#tools--technologies)  
+- [Dataset Description](#dataset-description)
+- [Tools & Technologies](#tools--technologies)
 - [Data Analysis Workflow](#data-analysis-workflow)  
 - [Key Insights](#key-insights)  
 - [Recommendations](#recommendations)  
@@ -36,9 +37,21 @@ AtliQ Hardware needed a detailed examination of its sales data to detect pattern
 
 ---
 
+##  Dataset Description
+The project uses several tables:
+
+1. **dim_customer** – Contains customer-related data  
+2. **dim_product** – Contains product-related data  
+3. **fact_gross_price** – Contains gross price information for each product  
+4. **fact_manufacturing_cost** – Contains the cost incurred in the production of each product  
+5. **fact_pre_invoice_deductions** – Contains pre-invoice deductions information for each product  
+6. **fact_sales_monthly** – Contains monthly sales data for each product  
+
+---
+
 ## Tools & Technologies
 - **SQL**: For querying and analyzing data.  
-- **Power BI**: For building dashboards and visual insights.
+- **Power BI**: For building dashboards and visual insights.  
 
 ---
 
