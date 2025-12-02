@@ -51,7 +51,8 @@ The project uses several tables:
 
 ## Tools & Technologies
 - **SQL**: For querying and analyzing data.  
-- **Power BI**: For building dashboards and visual insights.  
+- **Power BI**: For building dashboards and visual insights.
+- **Canva**: For presentation. 
 
 ---
 
